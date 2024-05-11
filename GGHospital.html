@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG Hospital Website</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="CSS\ggstyle.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="social-icons">
+                <span class="mr-2">Follow us on:</span>
+                <a href="#" class="text-dark mr-3"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-dark mr-3"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="text-dark mr-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-dark mr-3"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="contact-info">
+                <span>0471-1234567 | 0471-2356763</span>
+                <a href="#" class="text-dark mr-3"><i class="fas fa-envelope"></i></a>
+                <span>ggsamplemail@gmail.com | gghospmail@gmail.com</span>
+            </div>
+        </div>
+    </header>
+ 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="#">
+            <img src="gglogo.png" class="img-fluid w-50">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+ 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link active active-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Patient Care</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Departments
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Department 1</a>
+                        <a class="dropdown-item" href="#">Department 2</a>
+                        <a class="dropdown-item" href="#">Department 3</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">All Departments</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Academics and Research</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News & Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="banner">
+        <div id="main-image">
+          <img id="doctor-image" src="ggmain.png" alt="" />
+          <div id="main-text">
+            <h1>Love & Care to <br />Humanity</h1>
+          </div>
+          <div id="main-sub">
+            <p>
+              Fastest-Growing Multi Speciality Hospital <br />
+              in South Kerala
+            </p>
+          </div>
+          <div id="book-button">
+            <a id="book-button-link" href="#">Book an Appoinment</a>
+          </div>
+          <div id="banner-icon">
+            <i class="fa fa-play-circle"></i>
+          </div>
+          <div id="doc-talk">
+            <p>Doctors Talk</p>
+          </div>
+          <div>
+            <form class="book-form">
+              <h6 style="padding-inline-start: 30px; padding-top: 30px;">Book an Appoinment</h6>
+   
+              <div class="row">
+                <input type="text" placeholder="Full Name" />
+                <input type="text" placeholder="Phone Number" />
+                <input type="Date" placeholder="Date" />
+              </div>
+   
+              <div class="row">
+                <input type="text" placeholder="Department" />
+                <input type="text" placeholder="Doctor" />
+                <button type="submit">Book an Appoinment</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="department" class="container">
+        <h3 class="d-title mb-4">Our <br> Departments</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="dept-item">
+                    <img src="ggdept1.png" alt="" class="img-fluid mb-3">
+                    <h5 class="d-head">Hepatobiliary</h5>
+                    <p class="d-desc">The Hepatobiliary and Transolantology Unit of GG Hospital offers a comprehensive...</p>
+                    <p class="readmore">Read More</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="dept-item">
+                    <img src="ggdept2.png" alt="" class="img-fluid mb-3">
+                    <h5 class="d-head">Medical Oncology</h5>
+                    <p class="d-desc">GG Hospital is the best affordable hospital in South Kerala which is NABH accredited hospital...</p>
+                    <p class="readmore">Read More</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="dept-item">
+                    <img src="ggdept3.png" alt="" class="img-fluid mb-3">
+                    <h6 class="d-head">ENT, Head & Neck Skull Surgery</h6>
+                    <p class="d-desc">The ENT Department in GG Hospital provides a wide range of treatment modalities including...</p>
+                    <p class="readmore">Read More</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="why" class="container why-section">
+      <div class="row">
+          <div class="col-md-6" id="why-img">
+              <img src="why.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-6" id="why-cont">
+              <h3 style="margin-top: 100px; margin-bottom: 30px; text-shadow: 1px 1px 1px rgba(0,0,0,0.3);">Why GG Hospital</h3>
+              <ul id="why-ul" class="list-unstyled">
+                  <li class="why-li">
+                      <img class="gc" src="green-check-mark-verified.png" alt="" height="20px" />
+                      Multi-super specialty hospital in South Kerala.
+                  </li>
+                  <li class="why-li">
+                      <img class="gc" src="green-check-mark-verified.png" alt="" height="20px" />
+                      Achieved the unique reputation
+                  </li>
+                  <li class="why-li">
+                      <img class="gc" src="green-check-mark-verified.png" alt="" height="20px" />
+                      Multi-super specialty hospital in South Kerala.
+                  </li>
+                  <li class="why-li">
+                      <img class="gc" src="green-check-mark-verified.png" alt="" height="20px" />
+                      Multi-super specialty hospital in South Kerala.
+                  </li>
+                  <li class="why-li">
+                      <img class="gc" src="green-check-mark-verified.png" alt="" height="20px" />
+                      Multi-super specialty hospital in South Kerala.
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
+  <div id="special" class="container text-center">
+    <h3 id="special-head">Meet Our Specialist</h3>
+    <p id="special-p">We have the best doctors in GG</p>
+    <div class="row">
+        <div class="col-md-3">
+            <img class="sp-im" src="specialist1.png" alt="" />
+            <h4>Lisha Powell</h4>
+            <p class="spsp">ENT Specialists</p>
+        </div>
+        <div class="col-md-3">
+            <img class="sp-im" src="specialist2.png" alt="" />
+            <h4>Chris Nelson</h4>
+            <p class="spsp">Cardiologists</p>
+        </div>
+        <div class="col-md-3">
+            <img class="sp-im" src="specialist3.png" alt="" />
+            <h4>Linda Stapelton</h4>
+            <p class="spsp">Orthopedic surgeons</p>
+        </div>
+        <div class="col-md-3">
+            <img class="sp-im" src="specialist4.png" alt="" />
+            <h4>Sandra John</h4>
+            <p class="spsp">Psychiatrists</p>
+        </div>
+    </div>
+    <div id="view-button">
+      <a id="view-button-link" href="#">View All</a>
+    </div>
+</div>
+<div id="fac" class="container text-center">
+  <h3 class="f-head">Facilities & Activities</h3>
+  <div class="row">
+    <div class="col-md-4">
+      <img class="d-img img-fluid" src="fac1.png" alt="" />
+    </div>
+    <div class="col-md-4">
+      <img class="d-img img-fluid" src="fac2.png" alt="" />
+    </div>
+    <div class="col-md-4">
+      <img class="d-img img-fluid" src="fac3.png" alt="" />
+    </div>
+  </div>
+</div>
+<div class="underlay container">
+ <div class="interested">
+  <h3 class="i-head text-center">You may be interested</h3>
+  <div class="row">
+      <div class="col-md-4">
+          <img class="d-img img-fluid" src="int1.png" alt="" />
+          <h4 class="d-head">Hepatobiliary Surgery</h4>
+          <p class="d-desc">The Hepatobiliary and Transolantology Unit of GG Hospital offers a comprehensive..<span class="readmore">Read More</span></p>
+      </div>
+      <div class="col-md-4">
+          <img class="d-img img-fluid" src="int2.png" alt="" />
+          <h4 class="d-head">Hepatobiliary Surgery</h4>
+          <p class="d-desc">The Hepatobiliary and Transolantology Unit of GG Hospital offers a comprehensive..<span class="readmore">Read More</span></p>
+      </div>
+      <div class="col-md-4">
+          <img class="d-img img-fluid" src="int3.png" alt="" />
+          <h4 class="d-head">Hepatobiliary Surgery</h4>
+          <p class="d-desc">The Hepatobiliary and Transolantology Unit of GG Hospital offers a comprehensive..<span class="readmore">Read More</span></p>
+      </div>
+  </div>
+  </div>
+  <div class="subscribe">
+    <div class="subscribe-text">
+      <p>Subscribe our</p>
+      <p>Newsletter Sign up</p>
+    </div>
+    <div class="email-block">
+      <form>
+        <div class="input-container">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your mail id"/>
+          <button type="button">Subscribe</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="footer-container">
+<div class="footer-top">
+  <div class="logo-footer">
+    <img src="gglogo.png" class="img-fluid w-50 mb-4" />
+    <p>GG Hospital is the flagship hospital of the Sree Gokulam</p>
+    <p>Group of Companies. Our journey started on 27th</p>
+    <p>January 2016 for the common people in Trivandrum.</p>
+  </div>
+  <div class="about">
+    <p class="footer-head">About GG</p>
+    <div class="about-grid">
+      <p>About us</p>
+      <p>Academic</p>
+      <p>Hospital</p>
+      <p>Department</p>
+    </div>
+  </div>
+  <div class="legal">
+    <p class="footer-head">Legal</p>
+    <div class="legal-grid">
+      <p>Privacy Policy</p>
+      <p>Documentation</p>
+      <p>Terms of Services</p>
+      <p>Site Map</p>
+    </div>
+  </div>
+</div>
+<hr class="footer-hr" />
+<div class="footer-bottom">
+  <div class="footer-inline">
+    <img src="homeicon.png" />
+    <div>
+      <p>Medical College, Pattom Kumarapuram Rd,</p>
+      <p>Murinjapalam, Thiruvananthapuram, Kerala 695011</p>
+    </div>
+  </div>
+  <div class="footer-inline">
+    <img src="phone.png" />
+    <div>
+      <p>0471 2779100</p>
+      <p>0471 2779101</p>
+    </div>
+  </div>
+  <div class="footer-inline">
+    <img src="emailicon.png" />
+    <div>
+      <p>gghospitalphkpl@gmail.com</p>
+      <p>edoffice@gg-hospital.com</p>
+    </div>
+  </div>
+  <div>
+    <p style="font-weight: bold;">We are on Social Media</p>
+    <div class="social-media">
+      <img src="linkedin.png" />
+      <img src="youtubeicon.png" />
+      <img src="instaicon.png" />
+      <img src="facebookicon.png" />
+    </div>
+  </div>
+</div>
+</div>
+
+<p class="text-center mt-4 mb-3 footer-p">© 2023 GG Hospital.</p>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>

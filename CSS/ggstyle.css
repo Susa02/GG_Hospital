@@ -1,0 +1,341 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.social-icons a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.contact-info span {
+    color: #000;
+    margin-right: 10px;
+}
+.header .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14.8px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.nav-link {
+    color: #000 !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.nav-link:hover {
+    color: #ff1500 !important;
+}
+.active-link {
+    color: #ff1500 !important; /* Red color */
+}
+#banner {
+    position: relative;
+}
+#main-image {
+    z-index: 0;
+  }
+#doctor-image {
+    position: relative;
+    width: 95%;
+    padding-left: 20px;
+    height: 70%;
+    z-index: 0;
+}
+#main-text {
+font-size: 25px;
+text-shadow: #000;
+position: absolute;
+bottom: 65%;
+left: 100px;
+}
+#main-sub {
+position: absolute;
+text-shadow: #000;
+bottom: 50%;
+left: 100px;
+}
+#book-button {
+    position: absolute;
+    bottom: 40%;
+    left: 130px;
+  }
+#book-button-link {
+    background-color: rgb(33, 189, 137);
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2%;
+  }
+  #banner-icon {
+    position: absolute;
+    bottom: 42%;
+    left: 330px;
+  }
+  #doc-talk {
+    position: absolute;
+    bottom: 40%;
+    left: 350px;
+    text-decoration: underline;
+  }
+  .book-form {
+    position: absolute;
+    border: solid white;
+    margin-top: -100px;
+    margin-left: 200px;
+    z-index: 15;
+    background-color: white;
+    width: 70%;
+    /* padding-bottom: 50px; */
+    box-shadow: 1px 10px 10px 3px rgb(211, 211, 211);
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+  }
+  input {
+    width: 32%; /*  Adjust width as needed */
+    padding:10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    display: block;
+    width: 32%;
+    padding: 10px;
+    background-color: rgb(33, 189, 137);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  #department {
+    margin-top: 150px;
+    
+    background-color: white;
+}
+
+.d-head {
+    font-size: 1.2rem;
+}
+
+.dept-item {
+    padding: 0;
+}
+
+.dept-item img {
+    width: 100%;
+}
+
+.d-head, .d-desc, .readmore {
+    text-align: left;
+}
+.d-desc{
+    font-size: small;
+}
+.readmore{
+    color: rgb(33, 189, 137);
+    text-decoration: underline;
+    font-size: small;
+}
+
+#why-img img {
+    height: 400px; /* Set height for the image */
+}
+.why-section {
+    background-color: #eaf6ff; /* Light blue color */
+    margin-top: 20px;
+}
+.gc {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.why-li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+#special-head {
+    margin-top: 50px; /* Adjust margin as needed */
+}
+
+.sp-im {
+    width: 95%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.spsp {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 40px; /* Adjust margin as needed */
+}
+#view-button{
+    margin-top: 0;
+}
+#view-button-link {
+    background-color: rgb(33, 189, 137);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#fac {
+    margin-top: 100px; /* Adjust margin-top as needed */
+  }
+.i-head{
+    margin-top: 50px;
+}
+.underlay {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-color: #EAF2FF;
+    z-index: 21;
+    margin-top: 200px;
+    padding-bottom: 20%;
+  }
+.interested{
+    position: absolute;
+    top:-35%;
+    
+}
+.subscribe{
+    background-image: url('subscribe.png');
+    width: 95%;
+    height: 180px;
+    background-color: white;
+    /* margin: 100px; */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: absolute;
+    top:45%;
+    left: 3%;
+  }
+  .subscribe-text{
+    font-weight: bold;
+    margin-left: 40px;
+    line-height: .5;
+  }
+ 
+  .input-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #101010;
+    width: 350px;
+    padding-bottom: 2px;
+    margin-right: 40px;
+  }
+ 
+  input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    color: rgb(225, 225, 225);
+    font-weight: light;
+    box-sizing: border-box;
+    outline: none;
+  }
+  .subscribe button {
+    padding: 8px 20px;
+    background-color: #17C1A3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .footer-container{
+    background-color: rgba(249, 248, 248, 0.993);
+  }
+  .about-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.legal-grid{
+    width: 130%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+    margin-top: 60px;
+}
+.footer-head{
+    font-weight: bold;
+}
+.logo-footer{
+    line-height: .6px;
+    position: relative;
+    top: -15px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+    margin-top: 40px;
+}
+.footer-inline{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer-inline img {
+    margin-right: 10px;
+    width: 10px;
+    position: relative;
+    top: -7px;
+  }
+  .footer-inline div {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-inline p {
+    margin: 0;
+  }
+ .footer-p{
+    color: rgb(173, 173, 173);
+    font-size: 10px;
+ }
+ .footer-hr{
+    margin-left: 150px;
+    margin-right: 150px;
+ 
+ }
+ .social-media img{
+   width: 15px;
+   margin-left: 4px;
+   margin-top: -10px;
+ }
+
+  
+  
+
+
+
+
+
+
